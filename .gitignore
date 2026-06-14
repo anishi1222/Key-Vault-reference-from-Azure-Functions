@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Maven / Java build output
+target/
+*.class
+
+# Azure Functions local files
+local.settings.json
+.azurefunctions/
+
+# IDE metadata
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+*.log
+
+# .NET artifacts created by Azure Functions tooling
+bin/
+obj/
