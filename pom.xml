@@ -19,6 +19,7 @@
         <azure.keyvault.secrets.version>4.11.0</azure.keyvault.secrets.version>
         <junit.jupiter.version>6.1.0</junit.jupiter.version>
         <mockito.core.version>5.23.0</mockito.core.version>
+        <netty.version>4.1.135.Final</netty.version>
         <maven.compiler.plugin.version>3.15.0</maven.compiler.plugin.version>
         <maven.clean.plugin.version>3.5.0</maven.clean.plugin.version>
         <maven.dependency.plugin.version>3.11.0</maven.dependency.plugin.version>
@@ -60,6 +61,13 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-bom</artifactId>
+                <version>${netty.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
