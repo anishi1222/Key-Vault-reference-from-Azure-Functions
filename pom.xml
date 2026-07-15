@@ -17,6 +17,7 @@
         <azure.functions.java.library.version>3.3.0</azure.functions.java.library.version>
         <azure.identity.version>1.18.3</azure.identity.version>
         <azure.keyvault.secrets.version>4.11.0</azure.keyvault.secrets.version>
+        <jackson.version>2.18.9</jackson.version>
         <junit.jupiter.version>6.1.0</junit.jupiter.version>
         <mockito.core.version>5.23.0</mockito.core.version>
         <netty.version>4.1.135.Final</netty.version>
@@ -65,6 +66,13 @@
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
                 <version>${netty.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
