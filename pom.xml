@@ -17,10 +17,10 @@
         <azure.functions.java.library.version>3.3.0</azure.functions.java.library.version>
         <azure.identity.version>1.18.3</azure.identity.version>
         <azure.keyvault.secrets.version>4.11.0</azure.keyvault.secrets.version>
-        <jackson.version>2.18.9</jackson.version>
+        <jackson.version>2.18.11</jackson.version>
         <junit.jupiter.version>6.1.0</junit.jupiter.version>
         <mockito.core.version>5.23.0</mockito.core.version>
-        <netty.version>4.1.135.Final</netty.version>
+        <netty.version>4.1.138.Final</netty.version>
         <maven.compiler.plugin.version>3.15.0</maven.compiler.plugin.version>
         <maven.clean.plugin.version>3.5.0</maven.clean.plugin.version>
         <maven.dependency.plugin.version>3.11.0</maven.dependency.plugin.version>
